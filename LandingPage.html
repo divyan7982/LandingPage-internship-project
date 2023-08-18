@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="LandingPage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Earbuds Landing page</title>
+</head>
+<body>
+    <header>
+        <h1>SoundBuds</h1>
+
+        <section class="menu">
+            <ul class="menu-list">
+                <li>Home</li>
+                <li class="active">Products</li>
+                <li>About Us</li>
+                <li>Contact</li>
+            </ul>
+
+            <button>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+        </section>
+    </header>    
+
+    <section class="main">
+
+            <section class="left">
+                <p class="title">AeroBeat</p>
+                <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quae beatae autem perspiciatis quod libero reiciendis deleniti, incidunt suscipit labore optio fugiat, soluta illum numquam, architecto totam. Nemo, quasi temporibus!</p>
+                <button class="cta">Learn More</button>
+            </section>
+
+            <section class="right">
+                <img src="AeroBeat.jpg" alt="Landing Image">
+            </section>
+
+    </section>
+    <section class="main">
+
+        <section class="left">
+            <p class="title">PulsePods</p>
+            <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta corporis nisi consequatur illum deleniti error labore necessitatibus! Ut aliquam perspiciatis libero nisi soluta officiis ducimus reprehenderit totam quis cum?</p>
+            <button class="cta">Learn More</button>
+        </section>
+
+        <section class="right">
+            <img src="PulsePods.jpg" alt="Landing Image">
+        </section>
+    </section>
+
+    <section class="main">
+
+        <section class="left">
+            <p class="title">EarBuds sound-2</p>
+            <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta corporis nisi consequatur illum deleniti error labore necessitatibus! Ut aliquam perspiciatis libero nisi soluta officiis ducimus reprehenderit totam quis cum?</p>
+            <button class="cta">Learn More</button>
+        </section>
+    
+        <section class="right">
+            <img src="Earbuds bomb sound-2.jpg" alt="Landing Image">
+        </section>
+    </section>
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+        menu.classList.toggle('opened')
+        })
+
+    </script>
+
+</body>
+</html>
